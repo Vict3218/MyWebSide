@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Favoritfilm</title>
+    <link rel="stylesheet" href="KajsaStyle.css">
+</head>
+
+<body>
+    <header class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1>Favoritfilm</h1>
+      <p>Kajsas yndlingsfilm</p>
+      <figure>
+        <img src="gfx/Harry_Potter_movies_dvd.jpg">
+      </figure>
+      <button class="Forside" id="Forsideknap" type="button">Forside</button>
+      <script>
+        var Forsideknap = document.getElementById('Forsideknap');
+        Forsideknap.addEventListener('click', function() {
+            window.location.href = ".";
+        });
+      </script>
+        <button class="Victoria" id="Victoriaknap" type="button">Victoria</button>
+      <script>
+        var Victoriaknap = document.getElementById('Victoriaknap');
+        Victoriaknap.addEventListener('click', function() {
+            window.location.href = "Victoria.html";
+        });
+      </script>
+        <button class="KAkademisk_karriere" id="KAkademiskkarriereknap" type="button">Akademisk karriere</button>
+      <script>
+        var KAkademiskkarriereknap = document.getElementById('KAkademiskkarriereknap');
+        KAkademiskkarriereknap.addEventListener('click', function() {
+            window.location.href = "KAkademisk_karriere.html";
+        });
+      </script>
+        <button class="KPersonlige_interesser" id="KPersonlige_interesserknap" type="button">Personlige interesser</button>
+      <script>
+        var KPersonlige_interesserknap = document.getElementById('KPersonlige_interesserknap');
+        KPersonlige_interesserknap.addEventListener('click', function() {
+            window.location.href = "KPersonlige_interesser.html";
+        });
+      </script>
+    </main>
+  </body>
+
+</html>

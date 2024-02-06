@@ -1,0 +1,24 @@
+/* Mit første stylesheet */
+
+body {
+    font-family: 'Times New Roman', Times, serif, Cambria, Georgia;
+    font-size: 1.5rem;
+    background-color: rgb(220, 77, 156);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
